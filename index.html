@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Acme Services</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>Acme Services</h1>
+      <p>Reliable, Local, and Professional Service Providers</p>
+    </header>
+
+    <section class="services">
+      <h2>Our Services</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Home Repairs</h3>
+          <p>From plumbing to electrical, we handle small home repair jobs with care.</p>
+        </div>
+        <div class="card">
+          <h3>Landscaping</h3>
+          <p>Seasonal cleanups, mowing, and yard design to keep your property looking sharp.</p>
+        </div>
+        <div class="card">
+          <h3>Painting</h3>
+          <p>Interior and exterior painting services that brighten up your space.</p>
+        </div>
+        <div class="card">
+          <h3>Junk Removal</h3>
+          <p>Fast and friendly junk removal so you don’t have to lift a finger.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Get in Touch</h2>
+      <p>Have a project in mind? Need a hand around the house? We’d love to hear from you.</p>
+      <div class="contact-info">
+        <p>📞 (555) 123-4567</p>
+        <p>📧 contact@acmeservices.com</p>
+        <p>📍 Serving Metro Area, USA</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      &copy; <span id="year"></span> Acme Services. All rights reserved.
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById(\"year\").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
