@@ -90,12 +90,12 @@
     </div>
   </footer>
 
-  <script>
+<script>
   const images = [
     "https://images.unsplash.com/photo-1617723332539-6103f7d1b4a5?auto=format&fit=crop&w=1600&q=80", // fighter jets
-    "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1600&q=80", // aircraft carrier
-    "https://images.unsplash.com/photo-1504718855392-c0f33b1b2a00?auto=format&fit=crop&w=1600&q=80", // Marines training
-    "https://images.unsplash.com/photo-1590281579446-8b04a7761de7?auto=format&fit=crop&w=1600&q=80"  // American flag
+    "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1600&q=80", // carrier
+    "https://images.unsplash.com/photo-1504718855392-c0f33b1b2a00?auto=format&fit=crop&w=1600&q=80", // Marines
+    "https://images.unsplash.com/photo-1590281579446-8b04a7761de7?auto=format&fit=crop&w=1600&q=80"  // flag
   ];
 
   let current = 0;
@@ -106,10 +106,8 @@
     current = (current + 1) % images.length;
   }
 
-  // initial load
-  changeBackground();
-  // rotate every 6 seconds
+  changeBackground(); // initial load
   setInterval(changeBackground, 6000);
-</script> 
+</script>
 </body>
 </html>
