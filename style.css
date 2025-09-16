@@ -97,8 +97,8 @@ body {
   background-size: cover;
   background-position: center;
   z-index: -1;
-  transition: background-image 1s ease-in-out;
-  background: url('https://images.unsplash.com/photo-1590281579446-8b04a7761de7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
 }
 
 
