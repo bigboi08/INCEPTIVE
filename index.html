@@ -1,58 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>INCEPTIVE, LLC/title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INCEPTIVE, LLC</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="container">
-    
-    <header class="header">
-      <h1>persnell</h1>
-      <p>Reliable, Local, and Professional Service Providers</p>
-    </header>
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">INCEPTIVE, LLC</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <section class="services">
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Innovative Solutions. Proven Results.</h2>
+      <p>Driving efficiency and growth through modern strategies and Lean Six Sigma expertise.</p>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>At INCEPTIVE, LLC, we are committed to helping businesses streamline operations, maximize performance, and achieve sustainable growth. With expertise in supply chain, finance, and business solutions, we partner with organizations to deliver measurable results.</p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section alt-bg">
+    <div class="container">
       <h2>Our Services</h2>
-      <div class="cards">
+      <div class="grid">
         <div class="card">
-          <h3>active s</h3>
-          <p>From plumbing to electrical, we handle small home repair jobs with care.</p>
+          <h3>Consulting</h3>
+          <p>Operational strategy, supply chain optimization, and Lean Six Sigma process improvement.</p>
         </div>
         <div class="card">
-          <h3>Landscaping</h3>
-          <p>Seasonal cleanups, mowing, and yard design to keep your property looking sharp.</p>
+          <h3>Data & Finance</h3>
+          <p>Financial modeling, analytics, and dashboards to empower smarter business decisions.</p>
         </div>
         <div class="card">
-          <h3>Painting</h3>
-          <p>Interior and exterior painting services that brighten up your space.</p>
-        </div>
-        <div class="card">
-          <h3>servic...</h3>
-          <p>Fast and friendly junk removal so you don’t have to lift a finger.</p>
+          <h3>Technology</h3>
+          <p>Simple, modern solutions to support scalability and efficiency in any industry.</p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="contact">
-      <h2>Get in Touch</h2>
-      <p>Have a project in mind? Need a hand around the house? We’d love to hear from you.</p>
-      <div class="contact-info">
-        <p>📞 (555) 123-4567</p>
-        <p>📧 inceptivellc@gmail.com</p>
-        <p>📍 Serving Metro Area, USA</p>
-      </div>
-    </section>
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email us at <a href="mailto:inceptivemain@gmail.com">inceptivemain@gmail.com</a> or visit <a href="https://inceptivemain.com">inceptivemain.com</a></p>
+    </div>
+  </section>
 
-    <footer class="footer">
-      &copy; <span id="year"></span> Acme Services. All rights reserved.
-    </footer>
-  </main>
-
-  <script>
-    document.getElementById(\"year\").textContent = new Date().getFullYear();
-  </script>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 INCEPTIVE, LLC. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
