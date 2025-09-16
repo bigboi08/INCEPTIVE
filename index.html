@@ -37,6 +37,15 @@
   </div>
 </section>
 
+  <section class="hero">
+  <div class="hero-bg"></div> <!-- rotating background -->
+  <div class="hero-content">
+    <h2>Innovative Solutions. Proven Results.</h2>
+    <p>Driving efficiency and growth through modern strategies and Lean Six Sigma expertise.</p>
+    <a href="#contact" class="btn">Get in Touch</a>
+  </div>
+</section>
+
   <!-- About -->
   <section id="about" class="section">
     <div class="container">
@@ -80,5 +89,27 @@
       <p>© 2025 INCEPTIVE, LLC. All rights reserved.</p>
     </div>
   </footer>
+
+  <script>
+  const images = [
+    "https://images.unsplash.com/photo-1617723332539-6103f7d1b4a5?auto=format&fit=crop&w=1600&q=80", // fighter jets
+    "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1600&q=80", // aircraft carrier
+    "https://images.unsplash.com/photo-1504718855392-c0f33b1b2a00?auto=format&fit=crop&w=1600&q=80", // Marines training
+    "https://images.unsplash.com/photo-1590281579446-8b04a7761de7?auto=format&fit=crop&w=1600&q=80"  // American flag
+  ];
+
+  let current = 0;
+  const heroBg = document.querySelector('.hero-bg');
+
+  function changeBackground() {
+    heroBg.style.backgroundImage = `url('${images[current]}')`;
+    current = (current + 1) % images.length;
+  }
+
+  // initial load
+  changeBackground();
+  // rotate every 6 seconds
+  setInterval(changeBackground, 6000);
+</script> 
 </body>
 </html>
