@@ -27,5 +27,3 @@ function changeBackground() {
 changeBackground();
 setInterval(changeBackground, 6000);
 
-
-
