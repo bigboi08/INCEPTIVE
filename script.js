@@ -1,6 +1,6 @@
 // Local background images
 const images = [
-  "images/jets.jpg",
+  "images/1920x0.jpg",
   "images/carrier.jpg",
   "images/marines.jpg",
   "images/flag.jpg"
