@@ -1,9 +1,9 @@
 // Local background images
 const images = [
   "images/1920x0.jpg",
-  "images/carrier.jpg",
-  "images/marines.jpg",
-  "images/flag.jpg"
+  "images/1-BAE-M777.jpg",
+  "images/image1.jpg",
+  "images/military-flags-840.webp"
 ];
 
 let current = 0;
